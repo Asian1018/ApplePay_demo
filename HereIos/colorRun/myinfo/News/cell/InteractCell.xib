@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="InteractCell" selectionStyle="default" indentationWidth="10" rowHeight="80" id="y6y-RR-kj5" customClass="InteractCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="85"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="y6y-RR-kj5" id="Non-Bi-QSf">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="84"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="card_bg" translatesAutoresizingMaskIntoConstraints="NO" id="cuN-A6-OgW">
+                        <rect key="frame" x="8" y="12" width="105" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="105" id="IeF-Bi-SpA"/>
+                            <constraint firstAttribute="height" constant="60" id="eBN-aT-Uwj"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" text="22位小伙伴赞了你" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hvi-eI-IJo">
+                        <rect key="frame" x="121" y="8" width="117" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="昨天12:21" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wz0-iV-hsJ">
+                        <rect key="frame" x="246" y="8" width="66" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="坚持[每天打篮球]2天" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hlp-lN-N1y">
+                        <rect key="frame" x="8" y="12" width="105" height="60"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mwu-lg-Ibe">
+                        <rect key="frame" x="121" y="39" width="199" height="35"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="35" id="LwZ-rv-CuH"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="mwu-lg-Ibe" secondAttribute="trailing" id="54O-iQ-uKW"/>
+                    <constraint firstItem="Hvi-eI-IJo" firstAttribute="leading" secondItem="cuN-A6-OgW" secondAttribute="trailing" constant="8" id="83E-L3-pVV"/>
+                    <constraint firstItem="Hvi-eI-IJo" firstAttribute="top" secondItem="Wz0-iV-hsJ" secondAttribute="top" id="CVH-mD-76U"/>
+                    <constraint firstItem="Hlp-lN-N1y" firstAttribute="height" secondItem="cuN-A6-OgW" secondAttribute="height" id="K1z-79-crD"/>
+                    <constraint firstAttribute="bottom" secondItem="cuN-A6-OgW" secondAttribute="bottom" constant="8" id="L53-nG-gtG"/>
+                    <constraint firstItem="Hlp-lN-N1y" firstAttribute="leading" secondItem="cuN-A6-OgW" secondAttribute="leading" id="PQA-Pm-F1V"/>
+                    <constraint firstItem="Hlp-lN-N1y" firstAttribute="width" secondItem="cuN-A6-OgW" secondAttribute="width" id="QQ2-EX-TSe"/>
+                    <constraint firstItem="mwu-lg-Ibe" firstAttribute="bottom" secondItem="cuN-A6-OgW" secondAttribute="bottom" constant="2" id="SRX-cx-WzY"/>
+                    <constraint firstItem="Wz0-iV-hsJ" firstAttribute="leading" secondItem="Hvi-eI-IJo" secondAttribute="trailing" constant="8" id="Wfj-ig-xIR"/>
+                    <constraint firstItem="Wz0-iV-hsJ" firstAttribute="top" secondItem="Non-Bi-QSf" secondAttribute="top" constant="8" id="b7y-Uy-0j3"/>
+                    <constraint firstItem="mwu-lg-Ibe" firstAttribute="leading" secondItem="cuN-A6-OgW" secondAttribute="trailing" constant="8" id="eJD-79-I08"/>
+                    <constraint firstItem="cuN-A6-OgW" firstAttribute="top" secondItem="Non-Bi-QSf" secondAttribute="top" constant="8" id="hiv-PC-Hsd"/>
+                    <constraint firstItem="Hlp-lN-N1y" firstAttribute="top" secondItem="cuN-A6-OgW" secondAttribute="top" id="pkn-Km-e7c"/>
+                    <constraint firstItem="cuN-A6-OgW" firstAttribute="leading" secondItem="Non-Bi-QSf" secondAttribute="leading" constant="8" id="rbN-2P-J92"/>
+                    <constraint firstItem="cuN-A6-OgW" firstAttribute="centerY" secondItem="Non-Bi-QSf" secondAttribute="centerY" id="tu5-ZN-y5Z"/>
+                    <constraint firstAttribute="trailing" secondItem="Wz0-iV-hsJ" secondAttribute="trailing" constant="8" id="x7g-Yi-Muo"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="L53-nG-gtG"/>
+                        <exclude reference="hiv-PC-Hsd"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="backGroundImageView" destination="cuN-A6-OgW" id="Ft7-uc-AYu"/>
+                <outlet property="contendLabel" destination="Hvi-eI-IJo" id="PIZ-cV-QN8"/>
+                <outlet property="personView" destination="mwu-lg-Ibe" id="08J-xi-RJp"/>
+                <outlet property="timeLabel" destination="Wz0-iV-hsJ" id="pvc-j7-cCJ"/>
+                <outlet property="titleLabel" destination="Hlp-lN-N1y" id="oOg-8A-VI9"/>
+            </connections>
+            <point key="canvasLocation" x="573" y="283"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="card_bg" width="103" height="59"/>
+    </resources>
+</document>

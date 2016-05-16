@@ -1,0 +1,6 @@
+framework module DCFSQLite {
+  umbrella header "DCFSQLite-umbrella.h"
+
+  export *
+  module * { export * }
+}

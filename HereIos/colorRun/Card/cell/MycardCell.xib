@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MyCardCell" id="Div-QA-5Az" customClass="MyCardCell">
+            <rect key="frame" x="0.0" y="0.0" width="439" height="120"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Div-QA-5Az" id="kGd-xU-k4I">
+                <rect key="frame" x="0.0" y="0.0" width="439" height="119"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cw1-Dw-JzX">
+                        <rect key="frame" x="8" y="8" width="423" height="111"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" misplaced="YES" text="坚持每天跑步5公里坚持每跑步5公里坚持每天跑步5公里" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eDC-5z-yXb">
+                                <rect key="frame" x="77" y="36" width="276" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="czk-t6-ca9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="card_play" translatesAutoresizingMaskIntoConstraints="NO" id="pzo-y2-si5">
+                                <rect key="frame" x="0.0" y="8" width="99" height="22"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="card_steps" translatesAutoresizingMaskIntoConstraints="NO" id="bK4-Cn-4KN">
+                                <rect key="frame" x="8" y="40" width="52" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="6eO-4y-cAh"/>
+                                    <constraint firstAttribute="width" constant="48" id="c3t-4f-vCU"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="6eO-4y-cAh"/>
+                                        <exclude reference="c3t-4f-vCU"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="2 人" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zXY-mf-qeU">
+                                <rect key="frame" x="158" y="81" width="27" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="2016-01-10 创建" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B1p-Aj-K55">
+                                <rect key="frame" x="201" y="81" width="107" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="坚持 10 天" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pgQ-zd-nHX">
+                                <rect key="frame" x="77" y="81" width="65" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nfk-hS-ew2">
+                                <rect key="frame" x="371" y="38" width="36" height="36"/>
+                                <state key="normal" image="register_normal"/>
+                                <connections>
+                                    <action selector="signCardButtonClicked:" destination="Div-QA-5Az" eventType="touchUpInside" id="B1L-ZX-JmM"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="广播" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="poL-2h-rw3">
+                                <rect key="frame" x="115" y="10" width="40" height="18"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="KPN-67-CqN"/>
+                                    <constraint firstAttribute="height" constant="18" id="X6P-o9-OYY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="bK4-Cn-4KN" firstAttribute="centerY" secondItem="cw1-Dw-JzX" secondAttribute="centerY" constant="10" id="14S-GG-p9z"/>
+                            <constraint firstAttribute="trailing" secondItem="nfk-hS-ew2" secondAttribute="trailing" constant="16" id="79i-zr-CgE"/>
+                            <constraint firstItem="poL-2h-rw3" firstAttribute="centerY" secondItem="pzo-y2-si5" secondAttribute="centerY" id="FTj-KU-vCB"/>
+                            <constraint firstItem="zXY-mf-qeU" firstAttribute="centerY" secondItem="pgQ-zd-nHX" secondAttribute="centerY" id="Lb2-5u-xwH"/>
+                            <constraint firstItem="eDC-5z-yXb" firstAttribute="leading" secondItem="poL-2h-rw3" secondAttribute="leading" id="N4v-rG-bGD"/>
+                            <constraint firstItem="pzo-y2-si5" firstAttribute="leading" secondItem="cw1-Dw-JzX" secondAttribute="leading" id="P7G-zP-4gx"/>
+                            <constraint firstItem="poL-2h-rw3" firstAttribute="leading" secondItem="bK4-Cn-4KN" secondAttribute="trailing" constant="16" id="UGf-wf-Spi"/>
+                            <constraint firstItem="pgQ-zd-nHX" firstAttribute="top" secondItem="poL-2h-rw3" secondAttribute="bottom" constant="8" id="UKz-t2-eMz"/>
+                            <constraint firstItem="zXY-mf-qeU" firstAttribute="leading" secondItem="pgQ-zd-nHX" secondAttribute="trailing" constant="12" id="Ue4-Hu-ctc"/>
+                            <constraint firstItem="pgQ-zd-nHX" firstAttribute="leading" secondItem="poL-2h-rw3" secondAttribute="leading" id="b4r-PL-tUz"/>
+                            <constraint firstItem="poL-2h-rw3" firstAttribute="leading" secondItem="pzo-y2-si5" secondAttribute="trailing" constant="16" id="btT-7T-61f"/>
+                            <constraint firstItem="nfk-hS-ew2" firstAttribute="centerY" secondItem="cw1-Dw-JzX" secondAttribute="centerY" id="ccW-tu-Exf"/>
+                            <constraint firstItem="bK4-Cn-4KN" firstAttribute="leading" secondItem="cw1-Dw-JzX" secondAttribute="leading" constant="8" id="eeP-3a-Dgj"/>
+                            <constraint firstItem="eDC-5z-yXb" firstAttribute="leading" secondItem="bK4-Cn-4KN" secondAttribute="trailing" constant="8" id="f8u-jj-8s2"/>
+                            <constraint firstItem="pgQ-zd-nHX" firstAttribute="leading" secondItem="eDC-5z-yXb" secondAttribute="leading" id="gpX-D6-hwA"/>
+                            <constraint firstItem="B1p-Aj-K55" firstAttribute="leading" secondItem="zXY-mf-qeU" secondAttribute="trailing" constant="12" id="hDq-KQ-Agu"/>
+                            <constraint firstItem="pzo-y2-si5" firstAttribute="top" secondItem="cw1-Dw-JzX" secondAttribute="top" constant="8" id="iK7-Uu-KBQ"/>
+                            <constraint firstItem="nfk-hS-ew2" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="eDC-5z-yXb" secondAttribute="trailing" constant="8" id="kkK-P6-A1Z"/>
+                            <constraint firstItem="pgQ-zd-nHX" firstAttribute="top" secondItem="eDC-5z-yXb" secondAttribute="bottom" constant="5" id="xkl-DH-pjd"/>
+                            <constraint firstItem="B1p-Aj-K55" firstAttribute="centerY" secondItem="zXY-mf-qeU" secondAttribute="centerY" id="y5d-wB-Gw4"/>
+                            <constraint firstItem="eDC-5z-yXb" firstAttribute="top" secondItem="poL-2h-rw3" secondAttribute="bottom" constant="8" id="yrR-55-6XA"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                <integer key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="layer.borderUIColor">
+                                <color key="value" red="0.70196080207824707" green="0.70196080207824707" blue="0.70196080207824707" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="N4v-rG-bGD"/>
+                                <exclude reference="UKz-t2-eMz"/>
+                                <exclude reference="b4r-PL-tUz"/>
+                                <exclude reference="UGf-wf-Spi"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="cw1-Dw-JzX" secondAttribute="trailing" constant="8" id="BI4-X5-pTZ"/>
+                    <constraint firstItem="cw1-Dw-JzX" firstAttribute="leading" secondItem="kGd-xU-k4I" secondAttribute="leading" constant="8" id="VCI-bx-bCk"/>
+                    <constraint firstItem="cw1-Dw-JzX" firstAttribute="top" secondItem="kGd-xU-k4I" secondAttribute="top" constant="8" id="Zis-zG-omZ"/>
+                    <constraint firstAttribute="bottom" secondItem="cw1-Dw-JzX" secondAttribute="bottom" id="kKn-OS-4K6"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="cardTypeImageView" destination="pzo-y2-si5" id="K3a-6o-hlD"/>
+                <outlet property="categoryImageview" destination="bK4-Cn-4KN" id="QmK-9s-SDd"/>
+                <outlet property="dayLabel" destination="pgQ-zd-nHX" id="ALP-cN-lpZ"/>
+                <outlet property="personLabel" destination="zXY-mf-qeU" id="iBi-ec-hh3"/>
+                <outlet property="signCardButton" destination="nfk-hS-ew2" id="r7O-x2-DXQ"/>
+                <outlet property="timeLabel" destination="B1p-Aj-K55" id="Gpy-Ep-ZIm"/>
+                <outlet property="titleLabel" destination="eDC-5z-yXb" id="6Lt-Ug-UVv"/>
+                <outlet property="typeLabel" destination="poL-2h-rw3" id="MkY-34-C0s"/>
+            </connections>
+            <point key="canvasLocation" x="155.5" y="181"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="card_play" width="99" height="22"/>
+        <image name="card_steps" width="52" height="52"/>
+        <image name="register_normal" width="36" height="36"/>
+    </resources>
+</document>

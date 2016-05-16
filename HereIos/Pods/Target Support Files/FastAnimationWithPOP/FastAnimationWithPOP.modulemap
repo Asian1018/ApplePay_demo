@@ -1,0 +1,6 @@
+framework module FastAnimationWithPOP {
+  umbrella header "FastAnimationWithPOP-umbrella.h"
+
+  export *
+  module * { export * }
+}

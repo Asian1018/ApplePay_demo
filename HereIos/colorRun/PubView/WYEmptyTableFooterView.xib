@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1509" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="WYEmptyTableFooterView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="暂无消息" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rdX-bM-xMt">
+                    <rect key="frame" x="126" y="308" width="68" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="card_not_have" translatesAutoresizingMaskIntoConstraints="NO" id="tpr-kB-heH">
+                    <rect key="frame" x="91" y="155" width="138" height="138"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="tpr-kB-heH" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="-60" id="T6J-86-omJ"/>
+                <constraint firstItem="rdX-bM-xMt" firstAttribute="top" secondItem="tpr-kB-heH" secondAttribute="bottom" constant="15" id="ctR-u7-oKI"/>
+                <constraint firstAttribute="centerX" secondItem="tpr-kB-heH" secondAttribute="centerX" id="kpM-Cj-9sz"/>
+                <constraint firstAttribute="centerX" secondItem="rdX-bM-xMt" secondAttribute="centerX" id="poB-86-nwA"/>
+            </constraints>
+            <connections>
+                <outlet property="placeholderLabel" destination="rdX-bM-xMt" id="eZC-uW-fau"/>
+                <outlet property="playHolderImageView" destination="tpr-kB-heH" id="rOa-Xw-G9e"/>
+            </connections>
+            <point key="canvasLocation" x="249" y="215"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="card_not_have" width="138" height="138"/>
+    </resources>
+</document>

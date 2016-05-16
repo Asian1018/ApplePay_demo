@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1509" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="sport_cell" rowHeight="70" id="LKr-7o-El8" customClass="MySportTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="429" height="70"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="LKr-7o-El8" id="hrt-cW-uLl">
+                <rect key="frame" x="0.0" y="0.0" width="429" height="69"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="19日晚" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hy5-Ml-K7V">
+                        <rect key="frame" x="60" y="8" width="41" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="1" green="0.50196081399917603" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" misplaced="YES" text="10.00公里" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6vQ-KO-mZM">
+                        <rect key="frame" x="60" y="36" width="76" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" misplaced="YES" text="00:38:43" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DpV-Ci-egr">
+                        <rect key="frame" x="295" y="36" width="72" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.74509803919999995" green="0.74509803919999995" blue="0.74509803919999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" misplaced="YES" text="9'29&quot;" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e8J-FV-BZz">
+                        <rect key="frame" x="379" y="36" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.74509803919999995" green="0.74509803919999995" blue="0.74509803919999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="my_movement" translatesAutoresizingMaskIntoConstraints="NO" id="xpK-ZQ-Tmn">
+                        <rect key="frame" x="109" y="8" width="63" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="63" id="DHc-rO-KdO"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="my_run" translatesAutoresizingMaskIntoConstraints="NO" id="UuD-sz-wVV">
+                        <rect key="frame" x="8" y="13" width="44" height="44"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="44" id="aUR-F0-o6l"/>
+                            <constraint firstAttribute="width" constant="44" id="znQ-lL-Qh2"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="DpV-Ci-egr" firstAttribute="centerY" secondItem="e8J-FV-BZz" secondAttribute="centerY" id="1nG-sE-8hB"/>
+                    <constraint firstItem="DpV-Ci-egr" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6vQ-KO-mZM" secondAttribute="trailing" priority="250" constant="8" id="7jt-jR-2gd"/>
+                    <constraint firstItem="UuD-sz-wVV" firstAttribute="centerY" secondItem="hrt-cW-uLl" secondAttribute="centerY" id="Aqs-db-YgV"/>
+                    <constraint firstItem="DpV-Ci-egr" firstAttribute="baseline" secondItem="6vQ-KO-mZM" secondAttribute="baseline" id="B8A-Fx-6K9"/>
+                    <constraint firstItem="xpK-ZQ-Tmn" firstAttribute="centerY" secondItem="hy5-Ml-K7V" secondAttribute="centerY" id="Fb0-LF-Tnj"/>
+                    <constraint firstItem="UuD-sz-wVV" firstAttribute="top" secondItem="hrt-cW-uLl" secondAttribute="topMargin" constant="-1" id="KO5-61-Lf2"/>
+                    <constraint firstItem="hy5-Ml-K7V" firstAttribute="top" secondItem="hrt-cW-uLl" secondAttribute="top" constant="8" id="KOi-0R-Wuf"/>
+                    <constraint firstItem="DpV-Ci-egr" firstAttribute="centerY" secondItem="6vQ-KO-mZM" secondAttribute="centerY" id="LiA-rE-oVh"/>
+                    <constraint firstItem="xpK-ZQ-Tmn" firstAttribute="top" secondItem="hrt-cW-uLl" secondAttribute="topMargin" id="PUI-xh-01H"/>
+                    <constraint firstItem="6vQ-KO-mZM" firstAttribute="leading" secondItem="hy5-Ml-K7V" secondAttribute="leading" id="UWh-Z5-j2H"/>
+                    <constraint firstAttribute="trailing" secondItem="e8J-FV-BZz" secondAttribute="trailing" constant="8" id="VmO-fb-WRi"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="e8J-FV-BZz" secondAttribute="trailing" constant="8" id="Xby-xZ-hbh"/>
+                    <constraint firstItem="6vQ-KO-mZM" firstAttribute="top" secondItem="hy5-Ml-K7V" secondAttribute="bottom" constant="12" id="bEj-fP-nKm"/>
+                    <constraint firstItem="DpV-Ci-egr" firstAttribute="centerX" secondItem="hrt-cW-uLl" secondAttribute="centerX" constant="60" id="bcW-0R-Uuh"/>
+                    <constraint firstItem="hy5-Ml-K7V" firstAttribute="top" secondItem="hrt-cW-uLl" secondAttribute="topMargin" constant="8" id="dwc-TL-EcB"/>
+                    <constraint firstItem="e8J-FV-BZz" firstAttribute="baseline" secondItem="DpV-Ci-egr" secondAttribute="baseline" id="edg-Cu-7eY"/>
+                    <constraint firstItem="UuD-sz-wVV" firstAttribute="leading" secondItem="hrt-cW-uLl" secondAttribute="leadingMargin" id="kQE-tg-RiG"/>
+                    <constraint firstItem="e8J-FV-BZz" firstAttribute="leading" secondItem="DpV-Ci-egr" secondAttribute="trailing" constant="12" id="kgQ-KH-yOM"/>
+                    <constraint firstItem="xpK-ZQ-Tmn" firstAttribute="leading" secondItem="hy5-Ml-K7V" secondAttribute="trailing" constant="8" symbolic="YES" id="obX-PN-QHV"/>
+                    <constraint firstItem="hy5-Ml-K7V" firstAttribute="leading" secondItem="UuD-sz-wVV" secondAttribute="trailing" constant="8" id="pLY-Is-cio"/>
+                    <constraint firstItem="UuD-sz-wVV" firstAttribute="leading" secondItem="hrt-cW-uLl" secondAttribute="leading" constant="8" id="psV-Nu-y5G"/>
+                    <constraint firstItem="UuD-sz-wVV" firstAttribute="bottom" secondItem="hrt-cW-uLl" secondAttribute="bottomMargin" id="tgB-Dv-X6b"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="KO5-61-Lf2"/>
+                        <exclude reference="kQE-tg-RiG"/>
+                        <exclude reference="tgB-Dv-X6b"/>
+                        <exclude reference="dwc-TL-EcB"/>
+                        <exclude reference="B8A-Fx-6K9"/>
+                        <exclude reference="bcW-0R-Uuh"/>
+                        <exclude reference="Xby-xZ-hbh"/>
+                        <exclude reference="edg-Cu-7eY"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="activityType" destination="xpK-ZQ-Tmn" id="wxE-OC-TUy"/>
+                <outlet property="kilometer" destination="6vQ-KO-mZM" id="hu7-VA-yGe"/>
+                <outlet property="pace" destination="e8J-FV-BZz" id="IqH-6j-n0b"/>
+                <outlet property="period" destination="DpV-Ci-egr" id="koJ-8Q-SO3"/>
+                <outlet property="runType" destination="UuD-sz-wVV" id="wpZ-ec-tUp"/>
+                <outlet property="time" destination="hy5-Ml-K7V" id="weA-3L-24u"/>
+            </connections>
+            <point key="canvasLocation" x="173.5" y="193"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="my_movement" width="39" height="16"/>
+        <image name="my_run" width="42" height="49"/>
+    </resources>
+</document>

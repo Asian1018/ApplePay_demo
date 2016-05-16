@@ -1,0 +1,40 @@
+//
+//  PrefixHeader.pch
+//  colorRun
+//
+//  Created by zhidian on 15/11/19.
+//  Copyright © 2015年 engine. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#ifdef __OBJC__
+#import "WYEmptyTableFooterView.h"
+#import "User.h"
+#import "UserDao.h"
+#import "RoundView.h"
+#import "BaseApi.h"
+#import "Utile.h"
+#import "CoolApi.h"
+#import "BurningApi.h"
+#import "MBProgressHUD.h"
+#import "BurningModel.h"
+#import "MyModel.h"
+#import "CardApi.h"
+#import "CardModel.h"
+#import "UserApi.h"
+#import "PageTableViewController.h"
+
+#define GAODE_MAP_KEY @"c7b9f482748574d3ba9627bcbca214cd"
+#define UMKEY @"563811aa67e58e77d2001aea"
+#define IOS_DEVICE_TYPE 2   //客户端类型1:android 2:ios
+#define USER_ID @"CoolUserId"
+#define DEVICE_TOKEN @"phoneToken"
+#define PHONE_320_FONT [UIFont systemFontOfSize:13]
+#define HERE_APPID @"1070461858"
+#define APP_URL_ADDRESS @"www.baidu.com"
+#define VIEW_WIDTH [UIScreen mainScreen].applicationFrame.size.width
+#define REFRESH_MYCARD @"refresh_myCard"
+#define TAKECARD_SUCCESS @"takecard_success"
+#endif
+#endif /* PrefixHeader_pch */

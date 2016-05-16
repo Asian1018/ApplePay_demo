@@ -1,0 +1,22 @@
+platform:ios,'8.0'
+use_frameworks!
+target 'colorRun' do
+pod 'RDVTabBarController'
+pod 'AFNetworking','~> 3.0'
+pod 'JT3DScrollView','~> 1.0.2'
+pod 'SDWebImage', '~>3.7'
+pod 'FastAnimationWithPOP'
+pod 'DCFSQLite', '~> 1.0.0'
+pod 'Masonry'
+pod 'FMDB'
+pod 'MZTimerLabel'
+pod 'MBProgressHUD', '~> 0.8'
+pod 'UMengFeedback'
+pod 'UMengAnalytics-NO-IDFA'
+pod 'AMap2DMap'
+pod 'AMapLocation'
+pod 'JXBAdPageView'
+pod 'OCMock', '~> 3.2.1'
+pod 'MOBFoundation_IDFA'
+pod 'SMSSDK'
+end

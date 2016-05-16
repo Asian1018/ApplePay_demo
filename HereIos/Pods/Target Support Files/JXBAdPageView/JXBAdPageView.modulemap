@@ -1,0 +1,6 @@
+framework module JXBAdPageView {
+  umbrella header "JXBAdPageView-umbrella.h"
+
+  export *
+  module * { export * }
+}
