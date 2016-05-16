@@ -101,6 +101,7 @@
 		9B3C19221C7D9F7500041F32 /* UserAgreementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3C19211C7D9F7500041F32 /* UserAgreementViewController.m */; };
 		9B3C192A1C7DAF2000041F32 /* Here用户注册协议.doc in Resources */ = {isa = PBXBuildFile; fileRef = 9B3C19291C7DAF2000041F32 /* Here用户注册协议.doc */; };
 		9B7613421BFC6FBE00DD81A0 /* SystemSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7613411BFC6FBE00DD81A0 /* SystemSettingViewController.m */; };
+		9B8209D71CE9C2A60047B716 /* UILabel+ColorChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8209D61CE9C2A60047B716 /* UILabel+ColorChange.m */; };
 		9B9D3DB21BFD77E400CFE36A /* WYEmptyTableFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D3DB01BFD77E400CFE36A /* WYEmptyTableFooterView.m */; };
 		9B9D3DB31BFD77E400CFE36A /* WYEmptyTableFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B9D3DB11BFD77E400CFE36A /* WYEmptyTableFooterView.xib */; };
 		9BC285661C02BB220037B1EE /* CoolMap.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BC285631C02BB220037B1EE /* CoolMap.storyboard */; };
@@ -374,6 +375,8 @@
 		9B3C19291C7DAF2000041F32 /* Here用户注册协议.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Here用户注册协议.doc"; sourceTree = "<group>"; };
 		9B7613401BFC6FBE00DD81A0 /* SystemSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemSettingViewController.h; sourceTree = "<group>"; };
 		9B7613411BFC6FBE00DD81A0 /* SystemSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemSettingViewController.m; sourceTree = "<group>"; };
+		9B8209D51CE9C2A60047B716 /* UILabel+ColorChange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ColorChange.h"; sourceTree = "<group>"; };
+		9B8209D61CE9C2A60047B716 /* UILabel+ColorChange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ColorChange.m"; sourceTree = "<group>"; };
 		9B9D3DAF1BFD77E400CFE36A /* WYEmptyTableFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYEmptyTableFooterView.h; sourceTree = "<group>"; };
 		9B9D3DB01BFD77E400CFE36A /* WYEmptyTableFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYEmptyTableFooterView.m; sourceTree = "<group>"; };
 		9B9D3DB11BFD77E400CFE36A /* WYEmptyTableFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WYEmptyTableFooterView.xib; sourceTree = "<group>"; };
@@ -946,6 +949,8 @@
 				9BDFA3481C05572300DF06F1 /* RoundView.m */,
 				611A5B461C53652D00C7136B /* StyleUtile.h */,
 				611A5B471C53652D00C7136B /* StyleUtile.m */,
+				9B8209D51CE9C2A60047B716 /* UILabel+ColorChange.h */,
+				9B8209D61CE9C2A60047B716 /* UILabel+ColorChange.m */,
 			);
 			name = util;
 			sourceTree = "<group>";
@@ -1702,6 +1707,7 @@
 				6168F7CA1BE9B03F0098B8F9 /* UserDetailViewController.m in Sources */,
 				61B7306D1C19501B00A07759 /* CreditNavigationController.m in Sources */,
 				611A5B421C53490E00C7136B /* PhoneLoginViewController.m in Sources */,
+				9B8209D71CE9C2A60047B716 /* UILabel+ColorChange.m in Sources */,
 				9BD6E8EC1BFEEF3B00E8AB32 /* CardDetailViewController.m in Sources */,
 				9B095D731C16D7D50072B762 /* HealthManager.m in Sources */,
 				9BF084F31C771D7C0090D585 /* MHImagePickerMutilSelector.m in Sources */,
